@@ -1,0 +1,106 @@
+#header {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  height: 60px; 
+  border-bottom: 1px solid rgb(227, 216, 216);
+}
+
+.logo img {
+  width: 150px;
+  height: 50px;
+  object-fit: contain;
+
+}
+
+#info {
+  display: flex;
+  gap: 40px; 
+  margin-top: 2vh;
+  color: rgb(99, 98, 98);
+}
+#info span:hover {
+  color: rgb(0, 140, 255); 
+  cursor: pointer;
+}
+
+#center{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.landing img {
+  height: 50vh;
+  width: 110vh;
+  object-fit: contain;
+}
+
+
+#up{
+  background-color: rgb(109, 109, 177);
+  color: azure;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#up:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#eco {
+  margin-top: 15px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px 120px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#content {
+  flex: 1;
+}
+
+#content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#content h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+#content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 500px;
+}
+
+.eco-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.eco-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+
+
+
+
